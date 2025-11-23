@@ -4,7 +4,7 @@ import Header from "./components/Header"
 import { Outlet } from "react-router-dom"
 import { setUser } from "./store/userSlice";
 import { useDispatch } from "react-redux";
-import { setLocation } from "./store/locationSlice";
+import { setLocation } from "./store/LocationSlice";
 import { Location_API_END_POINT } from "./utils/constant";
 import axios from "axios";
 
