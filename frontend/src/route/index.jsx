@@ -1,17 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App"
-import Home from "../pages/Home";
-import Register from "../pages/Register";
-import Login from "../pages/Login";
-import About from "../pages/About";
-import ChangePassword from "../pages/profile/ChangePassword";
-import Profile from "../pages/profile/profile";
-import AddLocationForm from "../pages/profile/AddLocation";
-import AllLocations from "../pages/AllLocations";
-import LocationDetail from "../pages/LocationDetail";
+import Home from "../Pages/Home";
+import Register from "../Pages/Register";
+import Login from "../Pages/Login";
+import About from "../Pages/About";
+import ChangePassword from "../Pages/profile/ChangePassword";
+import Profile from "../Pages/profile/profile";
+import AddLocationForm from "../Pages/profile/AddLocation";
+import AllLocations from "../Pages/AllLocations";
+import LocationDetail from "../Pages/LocationDetail";
 import LocationList from "../components/LocationList";
-import Location from "../pages/Location/Admin/Location"
-import LocationUpdate from "../pages/Location/Admin/UpdateLocation";
+import Location from "../Pages/Location/Admin/Location"
+import LocationUpdate from "../Pages/Location/Admin/UpdateLocation";
 const router = createBrowserRouter([
 {
     path:"/",
