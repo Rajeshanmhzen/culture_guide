@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Button } from "@mantine/core";
-import { setLocation } from "../store/LocationSlice";
+import { setLocation } from "../store/locationSlice";
 import { Location_API_END_POINT, SERVER_BASE_URL } from "../utils/constant";
 
 

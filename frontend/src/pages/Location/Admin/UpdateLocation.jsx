@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Input, Textarea, Button, Title } from "@mantine/core";
 import { showNotification } from "@mantine/notifications";
 import { Location_API_END_POINT, SERVER_BASE_URL } from "../../../utils/constant";
-import { setLocation } from "../../../store/LocationSlice";
+import { setLocation } from "../../../store/locationSlice";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
 const LocationUpdate = () => {
