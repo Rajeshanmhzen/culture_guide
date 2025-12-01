@@ -1,6 +1,6 @@
 # Cultural Guide
 
-A full-stack web application for exploring and discovering cultural heritage locations with user authentication, location management, and review system.
+A full-stack web application for exploring and discovering cultural heritage locations with user authentication and location management.
 
 ## 🚀 Tech Stack
 
